@@ -9,7 +9,7 @@ import Store from './pages/store/Store';
 function App() {
   return (
     <ChakraProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/app3">
         <Routes>
           <Route path="/" element={<LoginPage />} />
           <Route
